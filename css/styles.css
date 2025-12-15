@@ -10882,4 +10882,34 @@ custom-dark-overlay .carousel-item::before {
 .custom-dark-overlay .carousel-caption {
   z-index: 2; /* Ensure the text is above the overlay */
 }
+.carousel-item img {
+  height: 300px; /* adjust this value to your preference */
+  object-fit: cover; /* crops to fill the space */
+  width: 100%;
+}
+.carousel-caption h5 {
+  color: white;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  color: white;
+  font-weight: bold;
+}
+
+.carousel-caption a.link {
+  color: #157347; /* Bootstrap green, or use any green you prefer */
+  font-weight: bold;
+  text-decoration: none; /* removes underline */
+}
+
+.carousel-caption a.link:hover {
+  color: #218838; /* darker green on hover */
+  text-decoration: underline; /* underline on hover */
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.7); /* 70% opacity black */
+  padding: 10px;
+  border-radius: 8px;
+}
     
