@@ -10829,5 +10829,16 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
-  background-size: 50% auto;
+  background-size: cover;
+}
+.quattrocento-regular {
+  font-family: "Quattrocento", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quattrocento-bold {
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+  font-style: normal;
 }
