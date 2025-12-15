@@ -10868,3 +10868,18 @@ h2:after {
     left: 0.5em;
     margin-right: -50%;
 }
+custom-dark-overlay .carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.9); /* Adjust the last value (0.6) for desired darkness */
+  z-index: 1; /* Ensure the overlay is above the image */
+}
+
+.custom-dark-overlay .carousel-caption {
+  z-index: 2; /* Ensure the text is above the overlay */
+}
+    
