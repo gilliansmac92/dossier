@@ -10930,7 +10930,6 @@ custom-dark-overlay .carousel-item::before {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
-   <style>
     /* Basic styling for better readability */
     table {
         width: 100%;
@@ -10949,4 +10948,3 @@ custom-dark-overlay .carousel-item::before {
     tr:nth-child(even) {
         background-color: #f9f9f9;
     }
-</style>
