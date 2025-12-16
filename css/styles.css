@@ -10882,16 +10882,16 @@ custom-dark-overlay .carousel-item::before {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9); /* Adjust the last value (0.6) for desired darkness */
-  z-index: 1; /* Ensure the overlay is above the image */
+  background: rgba(0, 0, 0, 0.9); 
+  z-index: 1; 
 }
 
 .custom-dark-overlay .carousel-caption {
-  z-index: 2; /* Ensure the text is above the overlay */
+  z-index: 2; 
 }
 .carousel-item img {
-  height: 300px; /* adjust this value to your preference */
-  object-fit: cover; /* crops to fill the space */
+  height: 300px; 
+  object-fit: cover; 
   width: 100%;
 }
 .carousel-caption h5 {
@@ -10905,9 +10905,9 @@ custom-dark-overlay .carousel-item::before {
 }
 
 .carousel-caption a.link {
-  color: #157347; /* Bootstrap green, or use any green you prefer */
+  color: #157347; 
   font-weight: bold;
-  text-decoration: none; /* removes underline */
+  text-decoration: none; 
 }
 
 .carousel-caption a.link:hover {
@@ -10930,21 +10930,29 @@ custom-dark-overlay .carousel-item::before {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
-    /* Basic styling for better readability */
+  
     table {
         width: 100%;
         border-collapse: collapse;
         font-family: "Quattrocento", serif;
     }
     th, td {
-        border: 1px solid #dddddd;
+        border: 1px solid #94b894;
         text-align: left;
         padding: 8px;
+        color: #333;
+        background-color: white; 
     }
     th {
-        background-color: #f2f2f2;
-        color: #333;
+        background-color: #1B5E20; 
+        color: white;
     }
-    tr:nth-child(even) {
-        background-color: #f9f9f9;
+    .institution {
+        background-color: white !important; 
+    }
+    .year {
+        background-color: #d8eadc !important; 
+    }
+    tr:nth-child(even) .course-detail {
+        background-color: #e8f5e9 !important; 
     }
