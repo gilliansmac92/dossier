@@ -10930,7 +10930,7 @@ custom-dark-overlay .carousel-item::before {
         font-family: "Quattrocento", serif;
     }
     th, td {
-        border: 1px solid #94b894;
+        border: 1px solid #487d6b; 
         text-align: left;
         padding: 8px;
         color: #333;
