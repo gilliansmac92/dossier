@@ -10912,4 +10912,8 @@ custom-dark-overlay .carousel-item::before {
   padding: 10px;
   border-radius: 8px;
 }
-    
+  .gallery .gallery-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
