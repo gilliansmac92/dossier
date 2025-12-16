@@ -10847,7 +10847,7 @@ textarea.form-control-lg {
 
 h3 {
     font-family: "Quattrocento", serif;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
     color: #04414d;
 }
@@ -10930,3 +10930,23 @@ custom-dark-overlay .carousel-item::before {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
+   <style>
+    /* Basic styling for better readability */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: "Quattrocento", serif;
+    }
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    th {
+        background-color: #f2f2f2;
+        color: #333;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+</style>
